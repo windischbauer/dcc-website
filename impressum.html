@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,600,700" rel="stylesheet" />
+
+    <style>
+      @font-face {
+          font-family: 'AtkinsonHyperlegibleMono';
+          src: url('./assets/fonts/AtkinsonHyperlegibleMono-VariableFont_wght.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+      }
+
+      body {
+          font-family: 'AtkinsonHyperlegibleMono', monospace;
+          background-color: #d7d2cc
+      }
+  </style>
+</head>
+
+<body class="bg-beige-50 text-gray-800 font-inter flex flex-col min-h-screen">
+
+    <header class="h-screen w-full bg-cover bg-center flex items-center justify-center text-white"
+        style="background-image:url('./assets/images/seat_pattern.JPG');">
+        <div class="max-w-xs w-full text-left">
+            <h1 class="text-3xl font-bold mb-4">Impressum</h1>
+            <p class="text-lg leading-relaxed">
+                drip coffee culture<br>
+                Adalbert-Stifter Platz 1<br>
+                4020 Linz<br>
+                Austria
+            </p>
+            <p class="text-lg leading-relaxed mt-4">
+                Inhaber: Daniel Mustermann<br>
+                <a href="mailto:daniel@driplinz.com" class="underline">daniel@driplinz.com</a>
+            </p>
+        </div>
+    </header>
+
+     <footer class="py-6 text-center text-gray-500 text-sm flex flex-col items-center gap-2 sm:flex-row sm:justify-center">
+    <div>© 2026 drip coffee culture. All rights reserved.</div>
+    <div><a href="./index.html">-> Home.</a></div>
+  </footer>
+</body>
+
+</html>
