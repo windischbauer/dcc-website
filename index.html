@@ -10,28 +10,19 @@
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.bunny.net">
-  <link href="https://fonts.bunny.net/css?family=inter:400,600,700" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css">
 
-  <style>
-      @font-face {
-          font-family: 'AtkinsonHyperlegibleMono';
-          src: url('./assets/fonts/AtkinsonHyperlegibleMono-VariableFont_wght.ttf') format('truetype');
-          font-weight: normal;
-          font-style: normal;
-      }
-
-      body {
-          font-family: 'AtkinsonHyperlegibleMono', monospace;
-          background-color: #d7d2cc
-      }
-  </style>
 </head>
 <body class="bg-beige-50 text-gray-800 font-inter">
 
   <header class="h-screen flex flex-col items-center justify-center bg-cover bg-center"
           style="background-image:url('./assets/images/long_exp_create.JPG')">
-    <img src="./assets/svgs/icon_01.svg" alt="Cafe Icon" class="w-64 h-64 filter invert">
-    <p class="text-xl font-bold text-white -mt-8">coming soon...</p>
+    <div class="">
+        <img src="./assets/svgs/icon_01.svg" alt="Cafe Icon" class="w-64 h-64 filter invert">
+    </div>
+    <p class="text-xl font-bold text-white -mt-8">
+      coming soon<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>
+    </p>
 
   </header>
 
@@ -56,5 +47,6 @@
     <div><a href="./impressum.html">-> impressum.</a></div>
   </footer>
 
+  <script src="script.js" defer></script>
 </body>
 </html>
